@@ -1,0 +1,33 @@
+<ion-view view-title="Alarms">
+	<ion-content class="padding" ng-init="initPickers()">
+		<center>
+			<div class="card" style="width: 250px">
+				<div class="item item-text-wrap">
+					<button ng-click="chooseTime()" class="button button-positive" style="width: 48%">
+						Tiempo
+					</button>
+					<button ng-click="chooseDate()" class="button button-positive" style="width: 48%">
+						Fecha
+					</button>
+				</div>
+				<div class="item item-text-wrap">
+					<label class="item item-input item-select item-energized">
+						<div class="input-label" style="padding: 7px 10px 7px 50px;">Level</div>
+						<select ng-model="options.index" ng-options="optionlabels.indexOf(value) as value for value in optionlabels"></select>
+					</label>
+				</div>
+				<div class="item item-text-wrap">
+					<button ng-click="createAlarm()" class="button button-assertive" style="width: 100%">
+						Crear Alarm
+					</button>
+				</div>
+			</div>
+			<div class="card">
+				<div ng-repeat="alarm in timerData.alarms" class="item item-text-wrap">
+					<h1>Alarma {{alarm.key}}</h1>
+					<h2>{{ alarm.timing }}</h2>
+				</div>
+			</div>
+		</center>
+	</ion-content>
+</ion-view>

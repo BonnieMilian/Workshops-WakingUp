@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ionic-datepicker",
+        "scope": null,
+        "escapedName": "ionic-datepicker",
+        "name": "ionic-datepicker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/bonniemilian/Escritorio/JSConf/Taller/WakingUp"
+    ]
+  ],
+  "_from": "ionic-datepicker@latest",
+  "_id": "ionic-datepicker@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ionic-datepicker",
+  "_nodeVersion": "4.4.2",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ionic-datepicker-1.1.0.tgz_1462794728851_0.16333781415596604"
+  },
+  "_npmUser": {
+    "name": "rajeshwarpatlolla",
+    "email": "rajeshwar.patlolla@gmail.com"
+  },
+  "_npmVersion": "2.15.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ionic-datepicker",
+    "scope": null,
+    "escapedName": "ionic-datepicker",
+    "name": "ionic-datepicker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ionic-datepicker/-/ionic-datepicker-1.1.0.tgz",
+  "_shasum": "73cbdc75d330c4e0cf61d41cc1d68ad4017ea06a",
+  "_shrinkwrap": null,
+  "_spec": "ionic-datepicker",
+  "_where": "/home/bonniemilian/Escritorio/JSConf/Taller/WakingUp",
+  "author": {
+    "name": "https://github.com/rajeshwarpatlolla, rajeshwar.patlolla@gmail.com"
+  },
+  "dependencies": {},
+  "description": "A date picker for ionic framework",
+  "devDependencies": {
+    "del": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-css2js": "*",
+    "gulp-minify-html": "*",
+    "gulp-ng-html2js": "*",
+    "gulp-uglify": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "73cbdc75d330c4e0cf61d41cc1d68ad4017ea06a",
+    "tarball": "https://registry.npmjs.org/ionic-datepicker/-/ionic-datepicker-1.1.0.tgz"
+  },
+  "gitHead": "294d2ba5cc201fabe44856912fb3e5e9e547edaa",
+  "license": "MIT",
+  "main": "./dist/ionic-datepicker.bundle.min.js",
+  "maintainers": [
+    {
+      "name": "rajeshwarpatlolla",
+      "email": "rajeshwar.patlolla@gmail.com"
+    }
+  ],
+  "name": "ionic-datepicker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.1.0"
+}
